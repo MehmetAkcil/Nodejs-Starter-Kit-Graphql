@@ -1,0 +1,43 @@
+{
+  "name": "ecommerce-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon app.js",
+    "dev": "npx pm2 src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/server": "^4.9.1",
+    "apollo-server-express": "^3.12.0",
+    "argon2": "^0.31.1",
+    "axios": "^1.5.1",
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "express-rate-limit": "^6.7.1",
+    "fs.promises": "^0.1.2",
+    "graphql": "^16.8.0",
+    "graphql-scalars": "^1.22.2",
+    "i": "^0.3.7",
+    "isemail": "^3.2.0",
+    "joi": "^17.9.2",
+    "jsonwebtoken": "^9.0.2",
+    "mariadb": "^3.2.0",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.2.0",
+    "nodemailer": "^6.9.3",
+    "nodemon": "^2.0.22",
+    "npm": "^10.1.0",
+    "sequelize": "^6.32.1",
+    "sharp": "^0.32.4"
+  }
+}
